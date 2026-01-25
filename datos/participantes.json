@@ -1,0 +1,36 @@
+{
+  "participantes": {
+    "josue": {
+      "nombre": "Josué",
+      "avatar": "assets/participantes/josue.jpeg"
+    },
+    "yared": {
+      "nombre": "Yared",
+      "avatar": "assets/participantes/yared.jpeg"
+    },
+    "fight-radar": {
+      "nombre": "Fight Radar",
+      "avatar": "assets/participantes/fight-radar.png"
+    },
+    "coke": {
+      "nombre": "Coke",
+      "avatar": "assets/participantes/coke.jpeg"
+    },
+    "gonzalo-campos": {
+      "nombre": "Gonzalo Campos",
+      "avatar": "assets/participantes/gonzalo-campos.jpg"
+    },
+    "humber-garcia": {
+      "nombre": "Humber García",
+      "avatar": "assets/participantes/humber-garcia.jpg"
+    },
+    "cesar-alonso": {
+      "nombre": "César Alonso",
+      "avatar": "assets/participantes/cesar-alonso.jpg"
+    },
+    "mmarc": {
+      "nombre": "MMARC",
+      "avatar": "assets/participantes/mmarc.jpg"
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "eventos": [
+    {
+      "nombre": "UFC 324",
+      "fecha": "2026-01-24",
+      "peleas": [
+        {
+          "peleador1": "justin-gaethje",
+          "peleador2": "paddy-pimblett",
+          "ganador": "justin-gaethje",
+          "pronosticos": {
+            "josue": "justin-gaethje",
+            "yared": "paddy-pimblett",
+            "coke": "paddy-pimblett",
+            "fight-radar": "paddy-pimblett",
+            "cesar-alonso": "paddy-pimblett",
+            "gonzalo-campos": "paddy-pimblett",
+            "humber-garcia": "justin-gaethje",
+            "mmarc": "paddy-pimblett"
+          }
+        },
+        {
+          "peleador1": "sean-omalley",
+          "peleador2": "song-yadong",
+          "ganador": "sean-omalley",
+          "pronosticos": {
+            "josue": "sean-omalley",
+            "yared": "sean-omalley",
+            "coke": "sean-omalley",
+            "fight-radar": "song-yadong",
+            "cesar-alonso": "sean-omalley",
+            "gonzalo-campos": "sean-omalley",
+            "humber-garcia": "song-yadong",
+            "mmarc": "sean-omalley"
+          }
+        },
+        {
+          "peleador1": "natalia-silva",
+          "peleador2": "rose-namajunas",
+          "ganador": "natalia-silva",
+          "pronosticos": {
+            "josue": "natalia-silva",
+            "yared": "natalia-silva",
+            "coke": "natalia-silva",
+            "cesar-alonso": "natalia-silva",
+            "gonzalo-campos": "natalia-silva",
+            "humber-garcia": "natalia-silva",
+            "mmarc": "rose-namajunas"
+          }
+        },
+        {
+          "peleador1": "waldo-cortes-acosta",
+          "peleador2": "derrick-lewis",
+          "ganador": "waldo-cortes-acosta",
+          "pronosticos": {
+            "josue": "derrick-lewis",
+            "yared": "waldo-cortes-acosta",
+            "coke": "waldo-cortes-acosta",
+            "fight-radar": "waldo-cortes-acosta",
+            "cesar-alonso": "waldo-cortes-acosta",
+            "gonzalo-campos": "derrick-lewis",
+            "humber-garcia": "waldo-cortes-acosta",
+            "mmarc": "waldo-cortes-acosta"
+          }
+        },
+        {
+          "peleador1": "jean-silva",
+          "peleador2": "arnold-allen",
+          "ganador": "jean-silva",
+          "pronosticos": {
+            "josue": "jean-silva",
+            "yared": "jean-silva",
+            "coke": "jean-silva",
+            "fight-radar": "jean-silva",
+            "cesar-alonso": "jean-silva",
+            "gonzalo-campos": "jean-silva",
+            "humber-garcia": "arnold-allen",
+            "mmarc": "jean-silva"
+          }
+        }
+      ]
+    }
+  ]
+}

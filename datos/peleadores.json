@@ -1,0 +1,54 @@
+{
+  "peleadores": {
+    "paddy-pimblett": {
+      "nombre": "Paddy Pimblett",
+      "apodo": "The Baddy",
+      "foto": "assets/peleadores/paddy-pimblett.jpg"
+    },
+    "justin-gaethje": {
+      "nombre": "Justin Gaethje",
+      "apodo": "The Highlight",
+      "foto": "assets/peleadores/justin-gaethje.jpg"
+    },
+    "sean-omalley": {
+      "nombre": "Sean O'Malley",
+      "apodo": "Sugar",
+      "foto": "assets/peleadores/sean-omalley.jpg"
+    },
+    "song-yadong": {
+      "nombre": "Song Yadong",
+      "apodo": "The Kung Fu Monkey",
+      "foto": "assets/peleadores/song-yadong.jpg"
+    },
+    "derrick-lewis": {
+      "nombre": "Derrick Lewis",
+      "apodo": "The Black Beast",
+      "foto": "assets/peleadores/derrick-lewis.jpg"
+    },
+    "waldo-cortes-acosta": {
+      "nombre": "Waldo Cortes-Acosta",
+      "apodo": "Salsa Boy",
+      "foto": "assets/peleadores/waldo-cortes-acosta.jpg"
+    },
+    "rose-namajunas": {
+      "nombre": "Rose Namajunas",
+      "apodo": "Thug Rose",
+      "foto": "assets/peleadores/rose-namajunas.jpg"
+    },
+    "natalia-silva": {
+      "nombre": "Natalia Silva",
+      "apodo": null,
+      "foto": "assets/peleadores/natalia-silva.jpg"
+    },
+    "arnold-allen": {
+      "nombre": "Arnold Allen",
+      "apodo": "Almighty",
+      "foto": "assets/peleadores/arnold-allen.jpg"
+    },
+    "jean-silva": {
+      "nombre": "Jean Silva",
+      "apodo": "Lord",
+      "foto": "assets/peleadores/jean-silva.jpg"
+    }
+  }
+}

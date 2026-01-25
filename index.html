@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clasificación Pronósticos | Locos x las MMA</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="assets/logo.jpeg" alt="Locos x las MMA" class="logo">
+            <div class="header-text">
+                <h1>Clasificación de Pronósticos</h1>
+                <p class="subtitle">¿Quién predice mejor las peleas de UFC?</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="ranking-section">
+            <h2><span class="icon">🏆</span> Clasificación General</h2>
+            <div class="table-container">
+                <table id="ranking-table">
+                    <thead>
+                        <tr>
+                            <th class="col-pos">#</th>
+                            <th class="col-nombre">Participante</th>
+                            <th class="col-aciertos">Aciertos</th>
+                            <th class="col-total">Total</th>
+                            <th class="col-porcentaje">%</th>
+                            <th class="col-wilson">Wilson Score</th>
+                        </tr>
+                    </thead>
+                    <tbody id="ranking-body">
+                        <!-- Se llena dinámicamente -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="history-section">
+            <h2><span class="icon">📅</span> Historial de Eventos</h2>
+            <div class="filter-container">
+                <label for="event-filter">Filtrar por evento:</label>
+                <select id="event-filter">
+                    <option value="all">Todos los eventos</option>
+                </select>
+            </div>
+            <div id="events-container">
+                <!-- Se llena dinámicamente -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            <a href="https://www.youtube.com/@LocosxlasMMA" target="_blank">YouTube</a> |
+            <a href="https://www.tiktok.com/@locosxlasmma" target="_blank">TikTok</a> |
+            <a href="https://www.instagram.com/locosxlasmma" target="_blank">Instagram</a>
+        </p>
+        <p class="copyright">© 2025 Locos x las MMA</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
