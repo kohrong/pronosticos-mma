@@ -192,9 +192,6 @@ function renderRanking() {
                 <td class="col-porcentaje">
                     <span class="${percentageClass}">${s.porcentaje.toFixed(1)}%</span>
                 </td>
-                <td class="col-wilson">
-                    <span class="wilson-score">${(s.wilsonScore * 100).toFixed(1)}%</span>
-                </td>
             </tr>
         `;
     }).join('');
@@ -244,45 +241,50 @@ function renderEvents(filterValue = 'all') {
                 const haResult = ganadorReal !== null;
                 const isCorrect = haResult && pick === ganadorReal;
                 const pickNombre = getNombrePeleador(pick);
+                const pickFoto = getFotoPeleador(pick);
 
                 return {
                     id,
                     nombre: participante?.nombre || id,
                     avatar: participante?.avatar || 'assets/logo.jpeg',
                     pick: pickNombre,
+                    pickFoto,
                     isCorrect,
                     haResult
                 };
             });
 
-            const fightId = `fight-${eventoIndex}-${peleaIndex}`;
             const nombre1 = getNombrePeleador(pelea.peleador1);
             const nombre2 = getNombrePeleador(pelea.peleador2);
+            const foto1 = getFotoPeleador(pelea.peleador1);
+            const foto2 = getFotoPeleador(pelea.peleador2);
             const isP1Winner = pelea.ganador === pelea.peleador1;
             const isP2Winner = pelea.ganador === pelea.peleador2;
 
             return `
                 <div class="event-fight">
-                    <div class="fight-header" data-target="${fightId}">
+                    <div class="fight-header">
                         <div class="fight-info">
-                            <span class="expand-icon">▼</span>
                             <span class="fight-matchup">
-                                <span class="${isP1Winner ? 'fighter-winner' : ''}">${isP1Winner ? '🏆 ' : ''}${nombre1}</span>
+                                <span class="fighter ${isP1Winner ? 'fighter-winner' : ''}">
+                                    ${foto1 ? `<img src="${foto1}" alt="${nombre1}" class="fighter-avatar" onerror="this.style.display='none'">` : ''}
+                                    ${isP1Winner ? '🏆 ' : ''}${nombre1}
+                                </span>
                                 <span class="vs-label">vs</span>
-                                <span class="${isP2Winner ? 'fighter-winner' : ''}">${isP2Winner ? '🏆 ' : ''}${nombre2}</span>
+                                <span class="fighter ${isP2Winner ? 'fighter-winner' : ''}">
+                                    ${foto2 ? `<img src="${foto2}" alt="${nombre2}" class="fighter-avatar" onerror="this.style.display='none'">` : ''}
+                                    ${isP2Winner ? '🏆 ' : ''}${nombre2}
+                                </span>
                             </span>
                         </div>
                     </div>
-                    <div class="fight-predictions" id="${fightId}">
-                        <div class="event-predictions">
+                    <div class="event-predictions">
+                        <div class="predictions-grid">
                             ${predictions.map(pred => `
-                                <div class="prediction-row">
-                                    <div class="prediction-participant">
-                                        <img src="${pred.avatar}" alt="${pred.nombre}" class="prediction-avatar"
-                                             onerror="this.src='assets/logo.jpeg'">
-                                        <span>${pred.nombre}</span>
-                                    </div>
-                                    <span class="prediction-pick ${pred.haResult ? (pred.isCorrect ? 'pick-correct' : 'pick-wrong') : 'pick-pending'}">${pred.pick}</span>
+                                <div class="prediction-item ${pred.haResult ? (pred.isCorrect ? 'pick-correct' : 'pick-wrong') : 'pick-pending'}" title="${pred.nombre} → ${pred.pick}">
+                                    <img src="${pred.avatar}" alt="${pred.nombre}" class="prediction-avatar"
+                                         onerror="this.src='assets/logo.jpeg'">
+                                    ${pred.pickFoto ? `<img src="${pred.pickFoto}" alt="${pred.pick}" class="pick-fighter-avatar" onerror="this.style.display='none'">` : ''}
                                 </div>
                             `).join('')}
                         </div>
@@ -322,17 +324,6 @@ function setupExpandListeners() {
 
             header.classList.toggle('collapsed');
             body.classList.toggle('collapsed');
-        });
-    });
-
-    // Fight headers (expandir/colapsar peleas)
-    document.querySelectorAll('.fight-header[data-target]').forEach(header => {
-        header.addEventListener('click', () => {
-            const targetId = header.getAttribute('data-target');
-            const predictions = document.getElementById(targetId);
-
-            header.classList.toggle('collapsed');
-            predictions.classList.toggle('collapsed');
         });
     });
 }
