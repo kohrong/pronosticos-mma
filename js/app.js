@@ -115,10 +115,13 @@ function calculateStats() {
         };
     });
 
-    // Iterar por eventos y sus peleas
+    // Iterar por eventos y sus peleas (solo contar si hay ganador)
     data.eventos.forEach(evento => {
         evento.peleas.forEach(pelea => {
             const ganadorReal = pelea.ganador;
+
+            // Solo contar si la pelea tiene ganador definido
+            if (!ganadorReal) return;
 
             Object.entries(pelea.pronosticos).forEach(([participanteId, pronostico]) => {
                 if (stats[participanteId]) {
@@ -234,13 +237,12 @@ function renderEvents(filterValue = 'all') {
         // Renderizar cada pelea del evento
         const peleasHtml = evento.peleas.map((pelea, peleaIndex) => {
             const ganadorReal = pelea.ganador;
-            const peleaString = getPeleaString(pelea);
-            const ganadorNombre = getNombrePeleador(pelea.ganador);
 
             // Obtener pronósticos con info del participante
             const predictions = Object.entries(pelea.pronosticos).map(([id, pick]) => {
                 const participante = participantes[id];
-                const isCorrect = pick === ganadorReal;
+                const haResult = ganadorReal !== null;
+                const isCorrect = haResult && pick === ganadorReal;
                 const pickNombre = getNombrePeleador(pick);
 
                 return {
@@ -248,20 +250,27 @@ function renderEvents(filterValue = 'all') {
                     nombre: participante?.nombre || id,
                     avatar: participante?.avatar || 'assets/logo.jpeg',
                     pick: pickNombre,
-                    isCorrect
+                    isCorrect,
+                    haResult
                 };
             });
 
             const fightId = `fight-${eventoIndex}-${peleaIndex}`;
+            const nombre1 = getNombrePeleador(pelea.peleador1);
+            const nombre2 = getNombrePeleador(pelea.peleador2);
+            const isP1Winner = pelea.ganador === pelea.peleador1;
+            const isP2Winner = pelea.ganador === pelea.peleador2;
 
             return `
                 <div class="event-fight">
                     <div class="fight-header" data-target="${fightId}">
                         <div class="fight-info">
                             <span class="expand-icon">▼</span>
-                            <span class="fight-matchup">${peleaString}</span>
-                            <span class="fight-label">→</span>
-                            <span class="fight-winner">${ganadorNombre}</span>
+                            <span class="fight-matchup">
+                                <span class="${isP1Winner ? 'fighter-winner' : ''}">${isP1Winner ? '🏆 ' : ''}${nombre1}</span>
+                                <span class="vs-label">vs</span>
+                                <span class="${isP2Winner ? 'fighter-winner' : ''}">${isP2Winner ? '🏆 ' : ''}${nombre2}</span>
+                            </span>
                         </div>
                     </div>
                     <div class="fight-predictions" id="${fightId}">
@@ -273,12 +282,7 @@ function renderEvents(filterValue = 'all') {
                                              onerror="this.src='assets/logo.jpeg'">
                                         <span>${pred.nombre}</span>
                                     </div>
-                                    <div class="prediction-result">
-                                        <span class="prediction-pick">${pred.pick}</span>
-                                        <span class="result-badge ${pred.isCorrect ? 'result-correct' : 'result-wrong'}">
-                                            ${pred.isCorrect ? 'Acierto' : 'Fallo'}
-                                        </span>
-                                    </div>
+                                    <span class="prediction-pick ${pred.haResult ? (pred.isCorrect ? 'pick-correct' : 'pick-wrong') : 'pick-pending'}">${pred.pick}</span>
                                 </div>
                             `).join('')}
                         </div>

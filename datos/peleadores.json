@@ -1,5 +1,55 @@
 {
   "peleadores": {
+    "alexander-volkanovski": {
+      "nombre": "Alexander Volkanovski",
+      "apodo": "The Great",
+      "foto": "assets/peleadores/alexander-volkanovski.png"
+    },
+    "diego-lopes": {
+      "nombre": "Diego Lopes",
+      "apodo": null,
+      "foto": "assets/peleadores/diego-lopes.png"
+    },
+    "dan-hooker": {
+      "nombre": "Dan Hooker",
+      "apodo": "The Hangman",
+      "foto": "assets/peleadores/dan-hooker.png"
+    },
+    "benoit-saint-denis": {
+      "nombre": "Benoit Saint Denis",
+      "apodo": "God of War",
+      "foto": "assets/peleadores/benoit-saint-denis.png"
+    },
+    "rafael-fiziev": {
+      "nombre": "Rafael Fiziev",
+      "apodo": "Ataman",
+      "foto": "assets/peleadores/rafael-fiziev.png"
+    },
+    "mauricio-ruffy": {
+      "nombre": "Mauricio Ruffy",
+      "apodo": null,
+      "foto": "assets/peleadores/mauricio-ruffy.png"
+    },
+    "tai-tuivasa": {
+      "nombre": "Tai Tuivasa",
+      "apodo": "Bam Bam",
+      "foto": "assets/peleadores/tai-tuivasa.png"
+    },
+    "tallison-teixeira": {
+      "nombre": "Tallison Teixeira",
+      "apodo": null,
+      "foto": "assets/peleadores/tallison-teixeira.png"
+    },
+    "quillan-salkilld": {
+      "nombre": "Quillan Salkilld",
+      "apodo": null,
+      "foto": "assets/peleadores/quillan-salkilld.png"
+    },
+    "jamie-mullarkey": {
+      "nombre": "Jamie Mullarkey",
+      "apodo": "The Nightrmare",
+      "foto": "assets/peleadores/jamie-mullarkey.png"
+    },
     "paddy-pimblett": {
       "nombre": "Paddy Pimblett",
       "apodo": "The Baddy",

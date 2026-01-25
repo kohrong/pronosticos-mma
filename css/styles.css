@@ -28,12 +28,20 @@
     box-sizing: border-box;
 }
 
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background: var(--bg-primary);
     color: var(--text-primary);
     min-height: 100vh;
     line-height: 1.6;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 /* Header */
@@ -163,6 +171,23 @@ section h2 .icon {
     overflow-x: auto;
     border-radius: 12px;
     border: 1px solid var(--border-color);
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    scrollbar-color: var(--cyan) var(--bg-secondary);
+}
+
+.table-container::-webkit-scrollbar {
+    height: 6px;
+}
+
+.table-container::-webkit-scrollbar-track {
+    background: var(--bg-secondary);
+    border-radius: 3px;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+    background: var(--cyan);
+    border-radius: 3px;
 }
 
 table {
@@ -408,16 +433,22 @@ tbody tr:last-child td {
     max-height: 0;
 }
 
-.fight-label {
-    color: var(--text-secondary);
-    font-size: 0.85rem;
-}
 
 .fight-matchup {
     font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    flex-wrap: wrap;
 }
 
-.fight-winner {
+.vs-label {
+    color: var(--text-secondary);
+    font-weight: 400;
+    font-size: 0.85em;
+}
+
+.fighter-winner {
     color: var(--green);
     font-weight: 700;
 }
@@ -452,32 +483,21 @@ tbody tr:last-child td {
     object-fit: cover;
 }
 
-.prediction-result {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-}
 
 .prediction-pick {
-    font-weight: 500;
+    font-weight: 600;
 }
 
-.result-badge {
-    padding: 0.25rem 0.5rem;
-    border-radius: 4px;
-    font-size: 0.75rem;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-.result-correct {
-    background: rgba(0, 255, 136, 0.2);
+.pick-correct {
     color: var(--green);
 }
 
-.result-wrong {
-    background: rgba(255, 71, 87, 0.2);
+.pick-wrong {
     color: var(--red);
+}
+
+.pick-pending {
+    color: var(--text-secondary);
 }
 
 /* Footer */
@@ -505,7 +525,7 @@ footer a:hover {
     font-size: 0.85rem;
 }
 
-/* Responsive */
+/* Responsive - Tablet */
 @media (max-width: 768px) {
     header {
         padding: 1rem;
@@ -522,49 +542,284 @@ footer a:hover {
     }
 
     .header-text h1 {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
+    }
+
+    .subtitle {
+        font-size: 0.85rem;
     }
 
     main {
         padding: 1rem;
     }
 
+    section h2 {
+        font-size: 1.2rem;
+    }
+
     .stat-number {
         font-size: 2rem;
     }
 
+    /* Tabla responsive */
+    .table-container {
+        border-radius: 8px;
+    }
+
     th, td {
-        padding: 0.75rem 0.5rem;
-        font-size: 0.85rem;
+        padding: 0.6rem 0.4rem;
+        font-size: 0.8rem;
+    }
+
+    th {
+        font-size: 0.65rem;
+        letter-spacing: 0.5px;
+    }
+
+    .col-pos { width: 40px; }
+    .col-nombre { min-width: 120px; }
+    .col-aciertos, .col-total, .col-porcentaje, .col-wilson {
+        width: 55px;
+    }
+
+    .position {
+        width: 26px;
+        height: 26px;
+        font-size: 0.75rem;
     }
 
     .participant-cell {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 0.25rem;
+        gap: 0.5rem;
     }
 
     .participant-avatar {
-        width: 30px;
-        height: 30px;
+        width: 28px;
+        height: 28px;
     }
 
+    .participant-name {
+        font-size: 0.8rem;
+    }
+
+    /* Eventos */
     .event-header {
-        flex-direction: column;
-        align-items: flex-start;
+        padding: 0.75rem 1rem;
     }
 
-    .event-header-left {
-        width: 100%;
+    .event-name {
+        font-size: 0.95rem;
     }
 
-    .fight-header .fight-info {
+    .event-date {
+        font-size: 0.8rem;
+    }
+
+    .fight-header {
+        padding: 0.6rem 1rem;
+    }
+
+    .fight-matchup {
+        font-size: 0.85rem;
+    }
+
+    .fighter-winner {
+        font-size: 0.85rem;
+    }
+
+    .event-predictions {
+        padding: 0.5rem 1rem;
+    }
+
+    .prediction-row {
+        padding: 0.4rem 0;
         flex-wrap: wrap;
+        gap: 0.25rem;
+    }
+
+    .prediction-participant {
+        font-size: 0.8rem;
+    }
+
+    .prediction-avatar {
+        width: 24px;
+        height: 24px;
+    }
+
+    .prediction-pick {
+        font-size: 0.75rem;
     }
 
     .filter-container select {
         width: 100%;
         min-width: unset;
+        font-size: 0.9rem;
+        padding: 0.6rem 0.8rem;
+    }
+
+    footer {
+        padding: 1.5rem 1rem;
+        font-size: 0.9rem;
+    }
+}
+
+/* Responsive - Móvil pequeño */
+@media (max-width: 480px) {
+    header {
+        padding: 0.75rem;
+    }
+
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .header-text h1 {
+        font-size: 1.1rem;
+    }
+
+    .subtitle {
+        font-size: 0.75rem;
+    }
+
+    main {
+        padding: 0.75rem;
+    }
+
+    section h2 {
+        font-size: 1rem;
+    }
+
+    section h2 .icon {
+        font-size: 1rem;
+    }
+
+    /* Tabla en móvil pequeño - layout compacto */
+    .table-container {
+        border-radius: 6px;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    table {
+        font-size: 0.75rem;
+    }
+
+    th, td {
+        padding: 0.5rem 0.3rem;
+    }
+
+    th {
+        font-size: 0.6rem;
+    }
+
+    .col-pos { width: 32px; }
+    .col-nombre { min-width: 100px; }
+    .col-aciertos, .col-total { width: 40px; }
+    .col-porcentaje, .col-wilson { width: 50px; }
+
+    .position {
+        width: 22px;
+        height: 22px;
+        font-size: 0.65rem;
+    }
+
+    .participant-avatar {
+        width: 24px;
+        height: 24px;
+    }
+
+    .participant-name {
+        font-size: 0.75rem;
+    }
+
+    /* Eventos móvil */
+    .event-card {
+        border-radius: 8px;
+    }
+
+    .event-header {
+        padding: 0.6rem 0.75rem;
+        gap: 0.25rem;
+    }
+
+    .event-header-left {
+        gap: 0.5rem;
+    }
+
+    .expand-icon {
+        font-size: 0.65rem;
+        width: 14px;
+    }
+
+    .event-name {
+        font-size: 0.9rem;
+    }
+
+    .event-date {
+        font-size: 0.7rem;
+    }
+
+    .fight-header {
+        padding: 0.5rem 0.75rem;
+    }
+
+    .fight-info {
+        gap: 0.35rem;
+    }
+
+    .fight-header .expand-icon {
+        font-size: 0.6rem;
+    }
+
+    .fight-matchup {
+        font-size: 0.8rem;
+    }
+
+    .vs-label {
+        font-size: 0.7rem;
+    }
+
+    .fighter-winner {
+        font-size: 0.8rem;
+    }
+
+    .event-predictions {
+        padding: 0.4rem 0.75rem;
+    }
+
+    .prediction-row {
+        padding: 0.35rem 0;
+    }
+
+    .prediction-participant {
+        gap: 0.35rem;
+        font-size: 0.75rem;
+    }
+
+    .prediction-avatar {
+        width: 20px;
+        height: 20px;
+    }
+
+    .prediction-pick {
+        font-size: 0.7rem;
+    }
+
+    .filter-container label {
+        font-size: 0.8rem;
+    }
+
+    .filter-container select {
+        font-size: 0.85rem;
+        padding: 0.5rem 0.6rem;
+    }
+
+    footer {
+        padding: 1rem;
+        font-size: 0.8rem;
+    }
+
+    .copyright {
+        font-size: 0.7rem;
     }
 }
 
