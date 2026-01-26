@@ -9,7 +9,8 @@
           "peleador2": "diego-lopes",
           "ganador": null,
           "pronosticos": {
-            "josue": "alexander-volkanovski"
+            "josue": "alexander-volkanovski",
+            "fight-radar": "diego-lopes"
           }
         },
         {
@@ -17,7 +18,8 @@
           "peleador2": "benoit-saint-denis",
           "ganador": null,
           "pronosticos": {
-            "josue": "benoit-saint-denis"
+            "josue": "benoit-saint-denis",
+            "fight-radar": "benoit-saint-denis"
           }
         },
         {
@@ -25,7 +27,8 @@
           "peleador2": "mauricio-ruffy",
           "ganador": null,
           "pronosticos": {
-            "josue": "mauricio-ruffy"
+            "josue": "mauricio-ruffy",
+            "fight-radar": "mauricio-ruffy"
           }
         },
         {
@@ -33,7 +36,8 @@
           "peleador2": "tallison-teixeira",
           "ganador": null,
           "pronosticos": {
-            "josue": "tallison-teixeira"
+            "josue": "tallison-teixeira",
+            "fight-radar": "tallison-teixeira"
           }
         },
         {
@@ -41,7 +45,8 @@
           "peleador2": "jamie-mullarkey",
           "ganador": null,
           "pronosticos": {
-            "josue": "quillan-salkilld"
+            "josue": "quillan-salkilld",
+            "fight-radar": "quillan-salkilld"
           }
         }
       ]
