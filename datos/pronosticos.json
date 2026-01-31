@@ -10,7 +10,13 @@
           "ganador": null,
           "pronosticos": {
             "josue": "alexander-volkanovski",
-            "fight-radar": "diego-lopes"
+            "fight-radar": "diego-lopes",
+            "cesar-alonso": "alexander-volkanovski",
+            "gonzalo-campos": "alexander-volkanovski",
+            "humber-garcia": "diego-lopes",
+            "coke": "alexander-volkanovski",
+            "mmarc": "alexander-volkanovski",
+            "yared": "alexander-volkanovski"
           }
         },
         {
@@ -19,7 +25,13 @@
           "ganador": null,
           "pronosticos": {
             "josue": "benoit-saint-denis",
-            "fight-radar": "benoit-saint-denis"
+            "fight-radar": "benoit-saint-denis",
+            "coke": "benoit-saint-denis",
+            "gonzalo-campos": "benoit-saint-denis",
+            "cesar-alonso": "benoit-saint-denis",
+            "humber-garcia": "dan-hooker",
+            "mmarc": "benoit-saint-denis",
+            "yared": "benoit-saint-denis"
           }
         },
         {
@@ -28,7 +40,13 @@
           "ganador": null,
           "pronosticos": {
             "josue": "mauricio-ruffy",
-            "fight-radar": "mauricio-ruffy"
+            "fight-radar": "mauricio-ruffy",
+            "coke": "rafael-fiziev",
+            "cesar-alonso": "mauricio-ruffy",
+            "humber-garcia": "rafael-fiziev",
+            "gonzalo-campos": "rafael-fiziev",
+            "mmarc": "mauricio-ruffy",
+            "yared": "mauricio-ruffy"
           }
         },
         {
@@ -37,7 +55,13 @@
           "ganador": null,
           "pronosticos": {
             "josue": "tallison-teixeira",
-            "fight-radar": "tallison-teixeira"
+            "fight-radar": "tallison-teixeira",
+            "cesar-alonso": "tallison-teixeira",
+            "humber-garcia": "tallison-teixeira",
+            "gonzalo-campos": "tai-tuivasa",
+            "coke": "tallison-teixeira",
+            "mmarc": "tai-tuivasa",
+            "yared": "tallison-teixeira"
           }
         },
         {
@@ -45,8 +69,14 @@
           "peleador2": "jamie-mullarkey",
           "ganador": null,
           "pronosticos": {
-            "josue": "quillan-salkilld",
-            "fight-radar": "quillan-salkilld"
+            "josue": "jamie-mullarkey",
+            "fight-radar": "quillan-salkilld",
+            "cesar-alonso": "quillan-salkilld",
+            "humber-garcia": "quillan-salkilld",
+            "gonzalo-campos": "quillan-salkilld",
+            "coke": "quillan-salkilld",
+            "mmarc": "quillan-salkilld",
+            "yared": "quillan-salkilld"
           }
         }
       ]
