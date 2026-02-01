@@ -7,7 +7,7 @@
         {
           "peleador1": "alexander-volkanovski",
           "peleador2": "diego-lopes",
-          "ganador": null,
+          "ganador": "alexander-volkanovski",
           "pronosticos": {
             "josue": "alexander-volkanovski",
             "fight-radar": "diego-lopes",
