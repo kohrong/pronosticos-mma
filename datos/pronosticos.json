@@ -67,7 +67,7 @@
         {
           "peleador1": "quillan-salkilld",
           "peleador2": "jamie-mullarkey",
-          "ganador": null,
+          "ganador": "quillan-salkilld",
           "pronosticos": {
             "josue": "jamie-mullarkey",
             "fight-radar": "quillan-salkilld",
