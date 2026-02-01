@@ -37,7 +37,7 @@
         {
           "peleador1": "rafael-fiziev",
           "peleador2": "mauricio-ruffy",
-          "ganador": null,
+          "ganador": "mauricio-ruffy",
           "pronosticos": {
             "josue": "mauricio-ruffy",
             "fight-radar": "mauricio-ruffy",
