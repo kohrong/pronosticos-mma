@@ -22,7 +22,7 @@
         {
           "peleador1": "dan-hooker",
           "peleador2": "benoit-saint-denis",
-          "ganador": null,
+          "ganador": "benoit-saint-denis",
           "pronosticos": {
             "josue": "benoit-saint-denis",
             "fight-radar": "benoit-saint-denis",
