@@ -52,7 +52,7 @@
         {
           "peleador1": "tai-tuivasa",
           "peleador2": "tallison-teixeira",
-          "ganador": null,
+          "ganador": "tallison-teixeira",
           "pronosticos": {
             "josue": "tallison-teixeira",
             "fight-radar": "tallison-teixeira",
