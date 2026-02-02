@@ -3,6 +3,8 @@
     {
       "nombre": "UFC 325",
       "fecha": "2026-02-01",
+      "hora": "22:00",
+      "timezone": "America/New_York",
       "peleas": [
         {
           "peleador1": "alexander-volkanovski",
@@ -84,6 +86,8 @@
     {
       "nombre": "UFC 324",
       "fecha": "2026-01-24",
+      "hora": "22:00",
+      "timezone": "America/New_York",
       "peleas": [
         {
           "peleador1": "justin-gaethje",
