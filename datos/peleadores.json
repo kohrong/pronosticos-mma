@@ -99,6 +99,66 @@
       "nombre": "Jean Silva",
       "apodo": "Lord",
       "foto": "assets/peleadores/jean-silva.png"
+    },
+    "mario-bautista": {
+      "nombre": "Mario Bautista",
+      "apodo": null,
+      "foto": "assets/peleadores/mario-bautista.png"
+    },
+    "vinicius-oliveira": {
+      "nombre": "Vinicius Oliveira",
+      "apodo": "Orelha",
+      "foto": "assets/peleadores/vinicius-oliveira.png"
+    },
+    "amir-albazi": {
+      "nombre": "Amir Albazi",
+      "apodo": "The Prince",
+      "foto": "assets/peleadores/amir-albazi.png"
+    },
+    "kyoji-horiguchi": {
+      "nombre": "Kyoji Horiguchi",
+      "apodo": null,
+      "foto": "assets/peleadores/kyoji-horiguchi.png"
+    },
+    "jailton-almeida": {
+      "nombre": "Jailton Almeida",
+      "apodo": "Malhadinho",
+      "foto": "assets/peleadores/jailton-almeida.png"
+    },
+    "rizvan-kuniev": {
+      "nombre": "Rizvan Kuniev",
+      "apodo": null,
+      "foto": "assets/peleadores/rizvan-kuniev.png"
+    },
+    "michal-oleksiejczuk": {
+      "nombre": "Michal Oleksiejczuk",
+      "apodo": null,
+      "foto": "assets/peleadores/michal-oleksiejczuk.png"
+    },
+    "marc-andre-barriault": {
+      "nombre": "Marc-Andre Barriault",
+      "apodo": "Power Bar",
+      "foto": "assets/peleadores/marc-andre-barriault.png"
+    },
+    "jean-matsumoto": {
+      "nombre": "Jean Matsumoto",
+      "apodo": null,
+      "foto": "assets/peleadores/jean-matsumoto.png"
+    },
+    "farid-basharat": {
+      "nombre": "Farid Basharat",
+      "apodo": null,
+      "foto": "assets/peleadores/farid-basharat.png"
+    },
+    "dustin-jacoby": {
+      "nombre": "Dustin Jacoby",
+      "apodo": "The Hanyak",
+      "foto": "assets/peleadores/dustin-jacoby.png"
+    },
+    "julius-walker": {
+      "nombre": "Julius Walker",
+      "apodo": null,
+      "foto": "assets/peleadores/julius-walker.png"
     }
   }
 }

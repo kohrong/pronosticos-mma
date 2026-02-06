@@ -1,6 +1,75 @@
 {
   "eventos": [
     {
+      "nombre": "UFC Fight Night: Bautista vs. Oliveira",
+      "fecha": "2026-02-07",
+      "peleas": [
+        {
+          "peleador1": "mario-bautista",
+          "peleador2": "vinicius-oliveira",
+          "ganador": null,
+          "pronosticos": {
+            "josue": "mario-bautista",
+            "yared": "mario-bautista",
+            "fight-radar": "vinicius-oliveira",
+            "coke": "vinicius-oliveira"
+          }
+        },
+        {
+          "peleador1": "amir-albazi",
+          "peleador2": "kyoji-horiguchi",
+          "ganador": null,
+          "pronosticos": {
+            "josue": "kyoji-horiguchi",
+            "yared": "kyoji-horiguchi",
+            "coke": "kyoji-horiguchi"
+          }
+        },
+        {
+          "peleador1": "jailton-almeida",
+          "peleador2": "rizvan-kuniev",
+          "ganador": null,
+          "pronosticos": {
+            "josue": "jailton-almeida",
+            "yared": "jailton-almeida",
+            "cesar-alonso": "jailton-almeida",
+            "coke": "jailton-almeida"
+          }
+        },
+        {
+          "peleador1": "michal-oleksiejczuk",
+          "peleador2": "marc-andre-barriault",
+          "ganador": null,
+          "pronosticos": {
+            "josue": "michal-oleksiejczuk",
+            "yared": "michal-oleksiejczuk",
+            "fight-radar": "michal-oleksiejczuk",
+            "cesar-alonso": "michal-oleksiejczuk"
+          }
+        },
+        {
+          "peleador1": "jean-matsumoto",
+          "peleador2": "farid-basharat",
+          "ganador": null,
+          "pronosticos": {
+            "josue": "farid-basharat",
+            "yared": "farid-basharat",
+            "fight-radar": "farid-basharat",
+            "cesar-alonso": "farid-basharat"
+          }
+        },
+        {
+          "peleador1": "dustin-jacoby",
+          "peleador2": "julius-walker",
+          "ganador": null,
+          "pronosticos": {
+            "josue": "julius-walker",
+            "yared": "dustin-jacoby"
+          }
+        }
+      ]
+    },
+    {
       "nombre": "UFC 325",
       "fecha": "2026-02-01",
       "peleas": [
