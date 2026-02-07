@@ -47,7 +47,8 @@
             "josue": "michal-oleksiejczuk",
             "yared": "michal-oleksiejczuk",
             "fight-radar": "michal-oleksiejczuk",
-            "cesar-alonso": "michal-oleksiejczuk"
+            "cesar-alonso": "michal-oleksiejczuk",
+            "coke": "michal-oleksiejczuk"
           }
         },
         {
@@ -59,6 +60,7 @@
             "yared": "farid-basharat",
             "fight-radar": "farid-basharat",
             "cesar-alonso": "farid-basharat",
+            "coke": "farid-basharat",
             "humber-garcia": "jean-matsumoto"
           }
         },
@@ -68,7 +70,8 @@
           "ganador": null,
           "pronosticos": {
             "josue": "julius-walker",
-            "yared": "dustin-jacoby"
+            "yared": "dustin-jacoby",
+            "coke": "dustin-jacoby"
           }
         }
       ]
