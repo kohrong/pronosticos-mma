@@ -7,7 +7,7 @@
         {
           "peleador1": "mario-bautista",
           "peleador2": "vinicius-oliveira",
-          "ganador": null,
+          "ganador": "mario-bautista",
           "pronosticos": {
             "josue": "mario-bautista",
             "yared": "mario-bautista",
@@ -19,7 +19,7 @@
         {
           "peleador1": "amir-albazi",
           "peleador2": "kyoji-horiguchi",
-          "ganador": null,
+          "ganador": "kyoji-horiguchi",
           "pronosticos": {
             "josue": "kyoji-horiguchi",
             "yared": "kyoji-horiguchi",
@@ -30,7 +30,7 @@
         {
           "peleador1": "jailton-almeida",
           "peleador2": "rizvan-kuniev",
-          "ganador": null,
+          "ganador": "rizvan-kuniev",
           "pronosticos": {
             "josue": "jailton-almeida",
             "yared": "jailton-almeida",
@@ -42,7 +42,7 @@
         {
           "peleador1": "michal-oleksiejczuk",
           "peleador2": "marc-andre-barriault",
-          "ganador": null,
+          "ganador": "michal-oleksiejczuk",
           "pronosticos": {
             "josue": "michal-oleksiejczuk",
             "yared": "michal-oleksiejczuk",
@@ -54,7 +54,7 @@
         {
           "peleador1": "jean-matsumoto",
           "peleador2": "farid-basharat",
-          "ganador": null,
+          "ganador": "farid-basharat",
           "pronosticos": {
             "josue": "farid-basharat",
             "yared": "farid-basharat",
@@ -67,7 +67,7 @@
         {
           "peleador1": "dustin-jacoby",
           "peleador2": "julius-walker",
-          "ganador": null,
+          "ganador": "dustin-jacoby",
           "pronosticos": {
             "josue": "julius-walker",
             "yared": "dustin-jacoby",
