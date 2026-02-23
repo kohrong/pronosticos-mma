@@ -116,6 +116,7 @@ function calculateStats() {
     });
 
     // Iterar por eventos y sus peleas (solo contar si hay ganador)
+    // No pronóstico = fallo: todos los participantes suman total en cada pelea resuelta
     data.eventos.forEach(evento => {
         evento.peleas.forEach(pelea => {
             const ganadorReal = pelea.ganador;
@@ -123,13 +124,13 @@ function calculateStats() {
             // Solo contar si la pelea tiene ganador definido
             if (!ganadorReal) return;
 
-            Object.entries(pelea.pronosticos).forEach(([participanteId, pronostico]) => {
-                if (stats[participanteId]) {
-                    stats[participanteId].total++;
+            // Cada participante cuenta esta pelea, haya pronosticado o no
+            Object.keys(stats).forEach(participanteId => {
+                stats[participanteId].total++;
 
-                    if (pronostico === ganadorReal) {
-                        stats[participanteId].aciertos++;
-                    }
+                const pronostico = pelea.pronosticos[participanteId];
+                if (pronostico === ganadorReal) {
+                    stats[participanteId].aciertos++;
                 }
             });
         });
