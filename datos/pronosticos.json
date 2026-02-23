@@ -7,7 +7,7 @@
         {
           "peleador1": "sean-strickland",
           "peleador2": "anthony-hernandez",
-          "ganador": null,
+          "ganador": "sean-strickland",
           "pronosticos": {
             "josue": "anthony-hernandez",
             "yared": "sean-strickland",
@@ -20,7 +20,7 @@
         {
           "peleador1": "geoff-neal",
           "peleador2": "uros-medic",
-          "ganador": null,
+          "ganador": "uros-medic",
           "pronosticos": {
             "josue": "geoff-neal",
             "yared": "uros-medic",
@@ -31,7 +31,7 @@
         {
           "peleador1": "dan-ige",
           "peleador2": "melquizael-costa",
-          "ganador": null,
+          "ganador": "melquizael-costa",
           "pronosticos": {
             "josue": "melquizael-costa",
             "yared": "dan-ige",
@@ -42,7 +42,7 @@
         {
           "peleador1": "serghei-spivac",
           "peleador2": "ante-delija",
-          "ganador": null,
+          "ganador": "serghei-spivac",
           "pronosticos": {
             "josue": "ante-delija",
             "yared": "ante-delija",
@@ -52,7 +52,7 @@
         {
           "peleador1": "jacobe-smith",
           "peleador2": "josiah-harrell",
-          "ganador": null,
+          "ganador": "jacobe-smith",
           "pronosticos": {
             "josue": "jacobe-smith",
             "yared": "josiah-harrell",
@@ -62,7 +62,7 @@
         {
           "peleador1": "zach-reese",
           "peleador2": "michel-pereira",
-          "ganador": null,
+          "ganador": "michel-pereira",
           "pronosticos": {
             "josue": "zach-reese",
             "yared": "zach-reese",
