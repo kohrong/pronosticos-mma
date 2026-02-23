@@ -1,6 +1,79 @@
 {
   "eventos": [
     {
+      "nombre": "UFC Fight Night: Strickland vs. Hernandez",
+      "fecha": "2026-02-21",
+      "peleas": [
+        {
+          "peleador1": "sean-strickland",
+          "peleador2": "anthony-hernandez",
+          "ganador": null,
+          "pronosticos": {
+            "josue": "anthony-hernandez",
+            "yared": "sean-strickland",
+            "coke": "anthony-hernandez",
+            "fight-radar": "anthony-hernandez",
+            "gonzalo-campos": "anthony-hernandez",
+            "humber-garcia": "anthony-hernandez"
+          }
+        },
+        {
+          "peleador1": "geoff-neal",
+          "peleador2": "uros-medic",
+          "ganador": null,
+          "pronosticos": {
+            "josue": "geoff-neal",
+            "yared": "uros-medic",
+            "coke": "geoff-neal",
+            "fight-radar": "uros-medic"
+          }
+        },
+        {
+          "peleador1": "dan-ige",
+          "peleador2": "melquizael-costa",
+          "ganador": null,
+          "pronosticos": {
+            "josue": "melquizael-costa",
+            "yared": "dan-ige",
+            "coke": "melquizael-costa",
+            "fight-radar": "melquizael-costa"
+          }
+        },
+        {
+          "peleador1": "serghei-spivac",
+          "peleador2": "ante-delija",
+          "ganador": null,
+          "pronosticos": {
+            "josue": "ante-delija",
+            "yared": "ante-delija",
+            "coke": "ante-delija"
+          }
+        },
+        {
+          "peleador1": "jacobe-smith",
+          "peleador2": "josiah-harrell",
+          "ganador": null,
+          "pronosticos": {
+            "josue": "jacobe-smith",
+            "yared": "josiah-harrell",
+            "coke": "jacobe-smith"
+          }
+        },
+        {
+          "peleador1": "zach-reese",
+          "peleador2": "michel-pereira",
+          "ganador": null,
+          "pronosticos": {
+            "josue": "zach-reese",
+            "yared": "zach-reese",
+            "coke": "zach-reese",
+            "fight-radar": "zach-reese",
+            "humber-garcia": "michel-pereira"
+          }
+        }
+      ]
+    },
+    {
       "nombre": "UFC Fight Night: Bautista vs. Oliveira",
       "fecha": "2026-02-07",
       "peleas": [

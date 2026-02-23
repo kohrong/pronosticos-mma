@@ -159,6 +159,66 @@
       "nombre": "Julius Walker",
       "apodo": null,
       "foto": "assets/peleadores/julius-walker.png"
+    },
+    "sean-strickland": {
+      "nombre": "Sean Strickland",
+      "apodo": null,
+      "foto": "assets/peleadores/sean-strickland.png"
+    },
+    "anthony-hernandez": {
+      "nombre": "Anthony Hernandez",
+      "apodo": null,
+      "foto": "assets/peleadores/anthony-hernandez.png"
+    },
+    "geoff-neal": {
+      "nombre": "Geoff Neal",
+      "apodo": "Handz of Steel",
+      "foto": "assets/peleadores/geoff-neal.png"
+    },
+    "uros-medic": {
+      "nombre": "Uros Medic",
+      "apodo": null,
+      "foto": "assets/peleadores/uros-medic.png"
+    },
+    "dan-ige": {
+      "nombre": "Dan Ige",
+      "apodo": "50K",
+      "foto": "assets/peleadores/dan-ige.png"
+    },
+    "melquizael-costa": {
+      "nombre": "Melquizael Costa",
+      "apodo": null,
+      "foto": "assets/peleadores/melquizael-costa.png"
+    },
+    "serghei-spivac": {
+      "nombre": "Serghei Spivac",
+      "apodo": "The Polar Bear",
+      "foto": "assets/peleadores/serghei-spivac.png"
+    },
+    "ante-delija": {
+      "nombre": "Ante Delija",
+      "apodo": null,
+      "foto": "assets/peleadores/ante-delija.png"
+    },
+    "jacobe-smith": {
+      "nombre": "Jacobe Smith",
+      "apodo": null,
+      "foto": "assets/peleadores/jacobe-smith.png"
+    },
+    "josiah-harrell": {
+      "nombre": "Josiah Harrell",
+      "apodo": null,
+      "foto": "assets/peleadores/josiah-harrell.png"
+    },
+    "zach-reese": {
+      "nombre": "Zach Reese",
+      "apodo": null,
+      "foto": "assets/peleadores/zach-reese.png"
+    },
+    "michel-pereira": {
+      "nombre": "Michel Pereira",
+      "apodo": null,
+      "foto": "assets/peleadores/michel-pereira.png"
     }
   }
 }
