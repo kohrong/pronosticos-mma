@@ -219,6 +219,66 @@
       "nombre": "Michel Pereira",
       "apodo": null,
       "foto": "assets/peleadores/michel-pereira.png"
+    },
+    "brandon-moreno": {
+      "nombre": "Brandon Moreno",
+      "apodo": "The Assassin Baby",
+      "foto": "assets/peleadores/brandon-moreno.png"
+    },
+    "loneer-kavanagh": {
+      "nombre": "Lone'er Kavanagh",
+      "apodo": null,
+      "foto": "assets/peleadores/loneer-kavanagh.png"
+    },
+    "marlon-vera": {
+      "nombre": "Marlon Vera",
+      "apodo": "Chito",
+      "foto": "assets/peleadores/marlon-vera.png"
+    },
+    "david-martinez": {
+      "nombre": "David Martinez",
+      "apodo": null,
+      "foto": "assets/peleadores/david-martinez.png"
+    },
+    "daniel-zellhuber": {
+      "nombre": "Daniel Zellhuber",
+      "apodo": "The Golden Boy",
+      "foto": "assets/peleadores/daniel-zellhuber.png"
+    },
+    "king-green": {
+      "nombre": "King Green",
+      "apodo": null,
+      "foto": "assets/peleadores/king-green.png"
+    },
+    "edgar-chairez": {
+      "nombre": "Edgar Cháirez",
+      "apodo": null,
+      "foto": "assets/peleadores/edgar-chairez.webp"
+    },
+    "felipe-bunes": {
+      "nombre": "Felipe Bunes",
+      "apodo": null,
+      "foto": "assets/peleadores/felipe-bunes.png"
+    },
+    "imanol-rodriguez": {
+      "nombre": "Imanol Rodriguez",
+      "apodo": null,
+      "foto": "assets/peleadores/imanol-rodriguez.png"
+    },
+    "kevin-borjas": {
+      "nombre": "Kevin Borjas",
+      "apodo": null,
+      "foto": "assets/peleadores/kevin-borjas.png"
+    },
+    "santiago-luna": {
+      "nombre": "Santiago Luna",
+      "apodo": null,
+      "foto": "assets/peleadores/santiago-luna.png"
+    },
+    "angel-pacheco": {
+      "nombre": "Angel Pacheco",
+      "apodo": null,
+      "foto": "assets/peleadores/angel-pacheco.png"
     }
   }
 }

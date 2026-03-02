@@ -1,6 +1,77 @@
 {
   "eventos": [
     {
+      "nombre": "UFC Mexico: Moreno vs. Kavanagh",
+      "fecha": "2026-02-28",
+      "peleas": [
+        {
+          "peleador1": "brandon-moreno",
+          "peleador2": "loneer-kavanagh",
+          "ganador": "loneer-kavanagh",
+          "pronosticos": {
+            "josue": "brandon-moreno",
+            "yared": "brandon-moreno",
+            "coke": "brandon-moreno",
+            "cesar-alonso": "brandon-moreno",
+            "fight-radar": "loneer-kavanagh"
+          }
+        },
+        {
+          "peleador1": "marlon-vera",
+          "peleador2": "david-martinez",
+          "ganador": "david-martinez",
+          "pronosticos": {
+            "josue": "marlon-vera",
+            "yared": "david-martinez",
+            "coke": "david-martinez",
+            "fight-radar": "david-martinez"
+          }
+        },
+        {
+          "peleador1": "daniel-zellhuber",
+          "peleador2": "king-green",
+          "ganador": "king-green",
+          "pronosticos": {
+            "josue": "daniel-zellhuber",
+            "yared": "daniel-zellhuber",
+            "coke": "daniel-zellhuber",
+            "cesar-alonso": "daniel-zellhuber"
+          }
+        },
+        {
+          "peleador1": "edgar-chairez",
+          "peleador2": "felipe-bunes",
+          "ganador": "edgar-chairez",
+          "pronosticos": {
+            "josue": "edgar-chairez",
+            "yared": "edgar-chairez",
+            "coke": "edgar-chairez",
+            "cesar-alonso": "edgar-chairez"
+          }
+        },
+        {
+          "peleador1": "imanol-rodriguez",
+          "peleador2": "kevin-borjas",
+          "ganador": "imanol-rodriguez",
+          "pronosticos": {
+            "josue": "imanol-rodriguez",
+            "yared": "imanol-rodriguez",
+            "coke": "imanol-rodriguez"
+          }
+        },
+        {
+          "peleador1": "santiago-luna",
+          "peleador2": "angel-pacheco",
+          "ganador": "santiago-luna",
+          "pronosticos": {
+            "josue": "santiago-luna",
+            "yared": "santiago-luna",
+            "coke": "santiago-luna"
+          }
+        }
+      ]
+    },
+    {
       "nombre": "UFC Fight Night: Strickland vs. Hernandez",
       "fecha": "2026-02-21",
       "peleas": [
