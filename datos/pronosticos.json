@@ -11,7 +11,8 @@
           "pronosticos": {
             "josue": "charles-oliveira",
             "coke": "charles-oliveira",
-            "yared": "max-holloway"
+            "yared": "max-holloway",
+            "mmarc": "max-holloway"
           }
         },
         {
@@ -21,7 +22,8 @@
           "pronosticos": {
             "josue": "caio-borralho",
             "coke": "caio-borralho",
-            "yared": "caio-borralho"
+            "yared": "caio-borralho",
+            "mmarc": "reinier-de-ridder"
           }
         },
         {
@@ -32,7 +34,8 @@
             "josue": "raul-rosas-jr",
             "coke": "raul-rosas-jr",
             "yared": "raul-rosas-jr",
-            "fight-radar": "raul-rosas-jr"
+            "fight-radar": "raul-rosas-jr",
+            "mmarc": "rob-font"
           }
         },
         {
@@ -43,7 +46,8 @@
             "josue": "michael-johnson",
             "coke": "michael-johnson",
             "yared": "drew-dober",
-            "fight-radar": "michael-johnson"
+            "fight-radar": "michael-johnson",
+            "mmarc": "drew-dober"
           }
         },
         {
@@ -54,7 +58,8 @@
             "josue": "gregory-rodrigues",
             "coke": "gregory-rodrigues",
             "yared": "gregory-rodrigues",
-            "fight-radar": "gregory-rodrigues"
+            "fight-radar": "gregory-rodrigues",
+            "mmarc": "gregory-rodrigues"
           }
         }
       ]
