@@ -279,6 +279,66 @@
       "nombre": "Angel Pacheco",
       "apodo": null,
       "foto": "assets/peleadores/angel-pacheco.png"
+    },
+    "max-holloway": {
+      "nombre": "Max Holloway",
+      "apodo": "Blessed",
+      "foto": "assets/peleadores/max-holloway.png"
+    },
+    "charles-oliveira": {
+      "nombre": "Charles Oliveira",
+      "apodo": "Do Bronx",
+      "foto": "assets/peleadores/charles-oliveira.png"
+    },
+    "caio-borralho": {
+      "nombre": "Caio Borralho",
+      "apodo": null,
+      "foto": "assets/peleadores/caio-borralho.png"
+    },
+    "reinier-de-ridder": {
+      "nombre": "Reinier de Ridder",
+      "apodo": "The Dutch Knight",
+      "foto": "assets/peleadores/reinier-de-ridder.png"
+    },
+    "raul-rosas-jr": {
+      "nombre": "Raul Rosas Jr.",
+      "apodo": null,
+      "foto": "assets/peleadores/raul-rosas-jr.png"
+    },
+    "rob-font": {
+      "nombre": "Rob Font",
+      "apodo": null,
+      "foto": "assets/peleadores/rob-font.png"
+    },
+    "drew-dober": {
+      "nombre": "Drew Dober",
+      "apodo": null,
+      "foto": "assets/peleadores/drew-dober.png"
+    },
+    "michael-johnson": {
+      "nombre": "Michael Johnson",
+      "apodo": "The Menace",
+      "foto": "assets/peleadores/michael-johnson.png"
+    },
+    "gregory-rodrigues": {
+      "nombre": "Gregory Rodrigues",
+      "apodo": "Robocop",
+      "foto": "assets/peleadores/gregory-rodrigues.png"
+    },
+    "brunno-ferreira": {
+      "nombre": "Brunno Ferreira",
+      "apodo": null,
+      "foto": "assets/peleadores/brunno-ferreira.png"
+    },
+    "cody-garbrandt": {
+      "nombre": "Cody Garbrandt",
+      "apodo": "No Love",
+      "foto": "assets/peleadores/cody-garbrandt.png"
+    },
+    "xiao-long": {
+      "nombre": "Xiao Long",
+      "apodo": null,
+      "foto": "assets/peleadores/xiao-long.png"
     }
   }
 }

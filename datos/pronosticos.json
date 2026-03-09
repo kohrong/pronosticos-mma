@@ -1,6 +1,65 @@
 {
   "eventos": [
     {
+      "nombre": "UFC 326: Holloway vs. Oliveira 2",
+      "fecha": "2026-03-07",
+      "peleas": [
+        {
+          "peleador1": "max-holloway",
+          "peleador2": "charles-oliveira",
+          "ganador": "charles-oliveira",
+          "pronosticos": {
+            "josue": "charles-oliveira",
+            "coke": "charles-oliveira",
+            "yared": "max-holloway"
+          }
+        },
+        {
+          "peleador1": "caio-borralho",
+          "peleador2": "reinier-de-ridder",
+          "ganador": "caio-borralho",
+          "pronosticos": {
+            "josue": "caio-borralho",
+            "coke": "caio-borralho",
+            "yared": "caio-borralho"
+          }
+        },
+        {
+          "peleador1": "raul-rosas-jr",
+          "peleador2": "rob-font",
+          "ganador": "raul-rosas-jr",
+          "pronosticos": {
+            "josue": "raul-rosas-jr",
+            "coke": "raul-rosas-jr",
+            "yared": "raul-rosas-jr",
+            "fight-radar": "raul-rosas-jr"
+          }
+        },
+        {
+          "peleador1": "drew-dober",
+          "peleador2": "michael-johnson",
+          "ganador": "drew-dober",
+          "pronosticos": {
+            "josue": "michael-johnson",
+            "coke": "michael-johnson",
+            "yared": "drew-dober",
+            "fight-radar": "michael-johnson"
+          }
+        },
+        {
+          "peleador1": "gregory-rodrigues",
+          "peleador2": "brunno-ferreira",
+          "ganador": "gregory-rodrigues",
+          "pronosticos": {
+            "josue": "gregory-rodrigues",
+            "coke": "gregory-rodrigues",
+            "yared": "gregory-rodrigues",
+            "fight-radar": "gregory-rodrigues"
+          }
+        }
+      ]
+    },
+    {
       "nombre": "UFC Mexico: Moreno vs. Kavanagh",
       "fecha": "2026-02-28",
       "peleas": [
