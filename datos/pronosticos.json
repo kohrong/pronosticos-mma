@@ -1,6 +1,70 @@
 {
   "eventos": [
     {
+      "nombre": "UFC Fight Night: Emmett vs. Vallejos",
+      "fecha": "2026-03-14",
+      "peleas": [
+        {
+          "peleador1": "josh-emmett",
+          "peleador2": "kevin-vallejos",
+          "ganador": null,
+          "pronosticos": {
+            "josue": "kevin-vallejos",
+            "yared": "kevin-vallejos",
+            "fight-radar": "kevin-vallejos"
+          }
+        },
+        {
+          "peleador1": "amanda-lemos",
+          "peleador2": "gillian-robertson",
+          "ganador": null,
+          "pronosticos": {
+            "josue": "gillian-robertson",
+            "yared": "gillian-robertson",
+            "fight-radar": "gillian-robertson"
+          }
+        },
+        {
+          "peleador1": "andre-fili",
+          "peleador2": "jose-delgado",
+          "ganador": null,
+          "pronosticos": {
+            "josue": "andre-fili",
+            "yared": "jose-delgado"
+          }
+        },
+        {
+          "peleador1": "marwan-rahiki",
+          "peleador2": "harry-hardwick",
+          "ganador": null,
+          "pronosticos": {
+            "josue": "harry-hardwick",
+            "yared": "marwan-rahiki"
+          }
+        },
+        {
+          "peleador1": "ion-cutelaba",
+          "peleador2": "oumar-sy",
+          "ganador": null,
+          "pronosticos": {
+            "josue": "oumar-sy",
+            "yared": "oumar-sy",
+            "fight-radar": "oumar-sy"
+          }
+        },
+        {
+          "peleador1": "charles-johnson",
+          "peleador2": "bruno-silva",
+          "ganador": null,
+          "pronosticos": {
+            "josue": "charles-johnson",
+            "yared": "bruno-silva",
+            "fight-radar": "bruno-silva"
+          }
+        }
+      ]
+    },
+    {
       "nombre": "UFC 326: Holloway vs. Oliveira 2",
       "fecha": "2026-03-07",
       "peleas": [

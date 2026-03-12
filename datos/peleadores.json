@@ -339,6 +339,66 @@
       "nombre": "Xiao Long",
       "apodo": null,
       "foto": "assets/peleadores/xiao-long.png"
+    },
+    "josh-emmett": {
+      "nombre": "Josh Emmett",
+      "apodo": null,
+      "foto": "assets/peleadores/josh-emmett.png"
+    },
+    "kevin-vallejos": {
+      "nombre": "Kevin Vallejos",
+      "apodo": null,
+      "foto": "assets/peleadores/kevin-vallejos.png"
+    },
+    "amanda-lemos": {
+      "nombre": "Amanda Lemos",
+      "apodo": null,
+      "foto": "assets/peleadores/amanda-lemos.png"
+    },
+    "gillian-robertson": {
+      "nombre": "Gillian Robertson",
+      "apodo": null,
+      "foto": "assets/peleadores/gillian-robertson.png"
+    },
+    "andre-fili": {
+      "nombre": "Andre Fili",
+      "apodo": "Touchy",
+      "foto": "assets/peleadores/andre-fili.png"
+    },
+    "jose-delgado": {
+      "nombre": "Jose Delgado",
+      "apodo": null,
+      "foto": "assets/peleadores/jose-delgado.png"
+    },
+    "marwan-rahiki": {
+      "nombre": "Marwan Rahiki",
+      "apodo": null,
+      "foto": "assets/peleadores/marwan-rahiki.png"
+    },
+    "harry-hardwick": {
+      "nombre": "Harry Hardwick",
+      "apodo": null,
+      "foto": "assets/peleadores/harry-hardwick.png"
+    },
+    "ion-cutelaba": {
+      "nombre": "Ion Cutelaba",
+      "apodo": "The Hulk",
+      "foto": "assets/peleadores/ion-cutelaba.png"
+    },
+    "oumar-sy": {
+      "nombre": "Oumar Sy",
+      "apodo": null,
+      "foto": "assets/peleadores/oumar-sy.png"
+    },
+    "charles-johnson": {
+      "nombre": "Charles Johnson",
+      "apodo": null,
+      "foto": "assets/peleadores/charles-johnson.png"
+    },
+    "bruno-silva": {
+      "nombre": "Bruno Silva",
+      "apodo": null,
+      "foto": "assets/peleadores/bruno-silva.png"
     }
   }
 }
