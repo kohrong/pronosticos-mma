@@ -7,59 +7,65 @@
         {
           "peleador1": "josh-emmett",
           "peleador2": "kevin-vallejos",
-          "ganador": null,
+          "ganador": "kevin-vallejos",
           "pronosticos": {
             "josue": "kevin-vallejos",
             "yared": "kevin-vallejos",
-            "fight-radar": "kevin-vallejos"
+            "fight-radar": "kevin-vallejos",
+            "coke": "kevin-vallejos"
           }
         },
         {
           "peleador1": "amanda-lemos",
           "peleador2": "gillian-robertson",
-          "ganador": null,
+          "ganador": "gillian-robertson",
           "pronosticos": {
             "josue": "gillian-robertson",
             "yared": "gillian-robertson",
-            "fight-radar": "gillian-robertson"
+            "fight-radar": "gillian-robertson",
+            "coke": "amanda-lemos"
           }
         },
         {
           "peleador1": "andre-fili",
           "peleador2": "jose-delgado",
-          "ganador": null,
+          "ganador": "jose-delgado",
           "pronosticos": {
             "josue": "andre-fili",
-            "yared": "jose-delgado"
+            "yared": "jose-delgado",
+            "coke": "jose-delgado"
           }
         },
         {
           "peleador1": "marwan-rahiki",
           "peleador2": "harry-hardwick",
-          "ganador": null,
+          "ganador": "marwan-rahiki",
           "pronosticos": {
             "josue": "harry-hardwick",
-            "yared": "marwan-rahiki"
+            "yared": "marwan-rahiki",
+            "coke": "marwan-rahiki"
           }
         },
         {
           "peleador1": "ion-cutelaba",
           "peleador2": "oumar-sy",
-          "ganador": null,
+          "ganador": "ion-cutelaba",
           "pronosticos": {
             "josue": "oumar-sy",
             "yared": "oumar-sy",
-            "fight-radar": "oumar-sy"
+            "fight-radar": "oumar-sy",
+            "coke": "oumar-sy"
           }
         },
         {
           "peleador1": "charles-johnson",
           "peleador2": "bruno-silva",
-          "ganador": null,
+          "ganador": "charles-johnson",
           "pronosticos": {
             "josue": "charles-johnson",
             "yared": "bruno-silva",
-            "fight-radar": "bruno-silva"
+            "fight-radar": "bruno-silva",
+            "coke": "bruno-silva"
           }
         }
       ]
