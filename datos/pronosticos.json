@@ -1,6 +1,75 @@
 {
   "eventos": [
     {
+      "nombre": "UFC Fight Night: Evloev vs. Murphy",
+      "fecha": "2026-03-22",
+      "peleas": [
+        {
+          "peleador1": "movsar-evloev",
+          "peleador2": "lerone-murphy",
+          "ganador": "movsar-evloev",
+          "pronosticos": {
+            "josue": "movsar-evloev",
+            "yared": "movsar-evloev",
+            "coke": "movsar-evloev",
+            "fight-radar": "lerone-murphy"
+          }
+        },
+        {
+          "peleador1": "luke-riley",
+          "peleador2": "michael-aswell-jr",
+          "ganador": "luke-riley",
+          "pronosticos": {
+            "josue": "luke-riley",
+            "yared": "luke-riley",
+            "coke": "luke-riley"
+          }
+        },
+        {
+          "peleador1": "michael-page",
+          "peleador2": "sam-patterson",
+          "ganador": "michael-page",
+          "pronosticos": {
+            "josue": "michael-page",
+            "yared": "michael-page",
+            "coke": "michael-page",
+            "fight-radar": "sam-patterson"
+          }
+        },
+        {
+          "peleador1": "iwo-baraniewski",
+          "peleador2": "austen-lane",
+          "ganador": "iwo-baraniewski",
+          "pronosticos": {
+            "josue": "iwo-baraniewski",
+            "yared": "iwo-baraniewski",
+            "coke": "iwo-baraniewski"
+          }
+        },
+        {
+          "peleador1": "christian-leroy-duncan",
+          "peleador2": "roman-dolidze",
+          "ganador": "christian-leroy-duncan",
+          "pronosticos": {
+            "josue": "christian-leroy-duncan",
+            "yared": "christian-leroy-duncan",
+            "coke": "roman-dolidze",
+            "fight-radar": "christian-leroy-duncan"
+          }
+        },
+        {
+          "peleador1": "danny-silva",
+          "peleador2": "kurtis-campbell",
+          "ganador": "danny-silva",
+          "pronosticos": {
+            "josue": "kurtis-campbell",
+            "yared": "kurtis-campbell",
+            "coke": "kurtis-campbell"
+          }
+        }
+      ]
+    },
+    {
       "nombre": "UFC Fight Night: Emmett vs. Vallejos",
       "fecha": "2026-03-14",
       "peleas": [

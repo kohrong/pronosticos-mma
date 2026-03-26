@@ -399,6 +399,66 @@
       "nombre": "Bruno Silva",
       "apodo": null,
       "foto": "assets/peleadores/bruno-silva.png"
+    },
+    "movsar-evloev": {
+      "nombre": "Movsar Evloev",
+      "apodo": null,
+      "foto": "assets/peleadores/movsar-evloev.png"
+    },
+    "lerone-murphy": {
+      "nombre": "Lerone Murphy",
+      "apodo": null,
+      "foto": "assets/peleadores/lerone-murphy.png"
+    },
+    "luke-riley": {
+      "nombre": "Luke Riley",
+      "apodo": null,
+      "foto": "assets/peleadores/luke-riley.png"
+    },
+    "michael-aswell-jr": {
+      "nombre": "Michael Aswell Jr.",
+      "apodo": null,
+      "foto": "assets/peleadores/michael-aswell-jr.png"
+    },
+    "michael-page": {
+      "nombre": "Michael Page",
+      "apodo": "MVP",
+      "foto": "assets/peleadores/michael-page.png"
+    },
+    "sam-patterson": {
+      "nombre": "Sam Patterson",
+      "apodo": null,
+      "foto": "assets/peleadores/sam-patterson.png"
+    },
+    "iwo-baraniewski": {
+      "nombre": "Iwo Baraniewski",
+      "apodo": null,
+      "foto": "assets/peleadores/iwo-baraniewski.png"
+    },
+    "austen-lane": {
+      "nombre": "Austen Lane",
+      "apodo": null,
+      "foto": "assets/peleadores/austen-lane.png"
+    },
+    "christian-leroy-duncan": {
+      "nombre": "Christian Leroy Duncan",
+      "apodo": null,
+      "foto": "assets/peleadores/christian-leroy-duncan.png"
+    },
+    "roman-dolidze": {
+      "nombre": "Roman Dolidze",
+      "apodo": null,
+      "foto": "assets/peleadores/roman-dolidze.png"
+    },
+    "danny-silva": {
+      "nombre": "Danny Silva",
+      "apodo": null,
+      "foto": "assets/peleadores/danny-silva.png"
+    },
+    "kurtis-campbell": {
+      "nombre": "Kurtis Campbell",
+      "apodo": null,
+      "foto": "assets/peleadores/kurtis-campbell.png"
     }
   }
 }
