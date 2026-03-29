@@ -459,6 +459,66 @@
       "nombre": "Kurtis Campbell",
       "apodo": null,
       "foto": "assets/peleadores/kurtis-campbell.png"
+    },
+    "israel-adesanya": {
+      "nombre": "Israel Adesanya",
+      "apodo": "The Last Stylebender",
+      "foto": "assets/peleadores/israel-adesanya.png"
+    },
+    "joe-pyfer": {
+      "nombre": "Joe Pyfer",
+      "apodo": null,
+      "foto": "assets/peleadores/joe-pyfer.png"
+    },
+    "alexa-grasso": {
+      "nombre": "Alexa Grasso",
+      "apodo": null,
+      "foto": "assets/peleadores/alexa-grasso.png"
+    },
+    "maycee-barber": {
+      "nombre": "Maycee Barber",
+      "apodo": "The Future",
+      "foto": "assets/peleadores/maycee-barber.png"
+    },
+    "michael-chiesa": {
+      "nombre": "Michael Chiesa",
+      "apodo": null,
+      "foto": "assets/peleadores/michael-chiesa.png"
+    },
+    "niko-price": {
+      "nombre": "Niko Price",
+      "apodo": "The Hybrid",
+      "foto": "assets/peleadores/niko-price.png"
+    },
+    "julian-erosa": {
+      "nombre": "Julian Erosa",
+      "apodo": "Juicy J",
+      "foto": "assets/peleadores/julian-erosa.png"
+    },
+    "lerryan-douglas": {
+      "nombre": "Lerryan Douglas",
+      "apodo": null,
+      "foto": "assets/peleadores/lerryan-douglas.png"
+    },
+    "mansur-abdul-malik": {
+      "nombre": "Mansur Abdul-Malik",
+      "apodo": null,
+      "foto": "assets/peleadores/mansur-abdul-malik.png"
+    },
+    "yousri-belgaroui": {
+      "nombre": "Yousri Belgaroui",
+      "apodo": null,
+      "foto": "assets/peleadores/yousri-belgaroui.png"
+    },
+    "terence-mckinney": {
+      "nombre": "Terence McKinney",
+      "apodo": "T.Wrecks",
+      "foto": "assets/peleadores/terence-mckinney.png"
+    },
+    "kyle-nelson": {
+      "nombre": "Kyle Nelson",
+      "apodo": null,
+      "foto": "assets/peleadores/kyle-nelson.png"
     }
   }
 }

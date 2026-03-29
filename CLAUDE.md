@@ -111,8 +111,8 @@ En `datos/participantes.json`, agregar al objeto `participantes`:
 - **Fotos peleadores:** `assets/peleadores/{id}.jpg`
 - **Fotos participantes:** `assets/participantes/{id}.png`
 
-## Wilson Score
+## Sistema de Ranking
 
-El ranking usa Wilson Score en lugar de porcentaje simple para ser justo con participantes con pocos pronósticos. Un participante con 1/1 (100%) no superará a uno con 8/10 (80%).
+El ranking usa Wilson Score (lower bound del intervalo de confianza binomial al 95%) con la regla de que **no pronosticar una pelea cuenta como fallo**. Cada pelea resuelta suma al total de todos los participantes, hayan pronosticado o no.
 
-Fórmula: Lower bound del intervalo de confianza binomial al 95%.
+Esto incentiva la participación completa y evita la estrategia de solo pronosticar peleas fáciles para mantener un porcentaje alto.

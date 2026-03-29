@@ -1,6 +1,76 @@
 {
   "eventos": [
     {
+      "nombre": "UFC Fight Night: Adesanya vs. Pyfer",
+      "fecha": "2026-03-28",
+      "peleas": [
+        {
+          "peleador1": "israel-adesanya",
+          "peleador2": "joe-pyfer",
+          "ganador": null,
+          "pronosticos": {
+            "josue": "joe-pyfer",
+            "yared": "joe-pyfer",
+            "fight-radar": "joe-pyfer",
+            "coke": "israel-adesanya"
+          }
+        },
+        {
+          "peleador1": "alexa-grasso",
+          "peleador2": "maycee-barber",
+          "ganador": null,
+          "pronosticos": {
+            "josue": "alexa-grasso",
+            "yared": "maycee-barber",
+            "fight-radar": "maycee-barber",
+            "coke": "alexa-grasso"
+          }
+        },
+        {
+          "peleador1": "michael-chiesa",
+          "peleador2": "niko-price",
+          "ganador": null,
+          "pronosticos": {
+            "josue": "michael-chiesa",
+            "yared": "michael-chiesa",
+            "fight-radar": "michael-chiesa",
+            "coke": "michael-chiesa"
+          }
+        },
+        {
+          "peleador1": "julian-erosa",
+          "peleador2": "lerryan-douglas",
+          "ganador": null,
+          "pronosticos": {
+            "josue": "lerryan-douglas",
+            "yared": "lerryan-douglas",
+            "coke": "lerryan-douglas"
+          }
+        },
+        {
+          "peleador1": "mansur-abdul-malik",
+          "peleador2": "yousri-belgaroui",
+          "ganador": null,
+          "pronosticos": {
+            "josue": "mansur-abdul-malik",
+            "yared": "yousri-belgaroui",
+            "coke": "yousri-belgaroui"
+          }
+        },
+        {
+          "peleador1": "terence-mckinney",
+          "peleador2": "kyle-nelson",
+          "ganador": null,
+          "pronosticos": {
+            "josue": "terence-mckinney",
+            "yared": "terence-mckinney",
+            "fight-radar": "kyle-nelson",
+            "coke": "terence-mckinney"
+          }
+        }
+      ]
+    },
+    {
       "nombre": "UFC Fight Night: Evloev vs. Murphy",
       "fecha": "2026-03-22",
       "peleas": [
