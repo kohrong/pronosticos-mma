@@ -7,7 +7,7 @@
         {
           "peleador1": "israel-adesanya",
           "peleador2": "joe-pyfer",
-          "ganador": null,
+          "ganador": "joe-pyfer",
           "pronosticos": {
             "josue": "joe-pyfer",
             "yared": "joe-pyfer",
@@ -18,7 +18,7 @@
         {
           "peleador1": "alexa-grasso",
           "peleador2": "maycee-barber",
-          "ganador": null,
+          "ganador": "alexa-grasso",
           "pronosticos": {
             "josue": "alexa-grasso",
             "yared": "maycee-barber",
@@ -29,7 +29,7 @@
         {
           "peleador1": "michael-chiesa",
           "peleador2": "niko-price",
-          "ganador": null,
+          "ganador": "michael-chiesa",
           "pronosticos": {
             "josue": "michael-chiesa",
             "yared": "michael-chiesa",
@@ -40,7 +40,7 @@
         {
           "peleador1": "julian-erosa",
           "peleador2": "lerryan-douglas",
-          "ganador": null,
+          "ganador": "lerryan-douglas",
           "pronosticos": {
             "josue": "lerryan-douglas",
             "yared": "lerryan-douglas",
@@ -50,7 +50,7 @@
         {
           "peleador1": "mansur-abdul-malik",
           "peleador2": "yousri-belgaroui",
-          "ganador": null,
+          "ganador": "yousri-belgaroui",
           "pronosticos": {
             "josue": "mansur-abdul-malik",
             "yared": "yousri-belgaroui",
@@ -60,7 +60,7 @@
         {
           "peleador1": "terence-mckinney",
           "peleador2": "kyle-nelson",
-          "ganador": null,
+          "ganador": "terence-mckinney",
           "pronosticos": {
             "josue": "terence-mckinney",
             "yared": "terence-mckinney",
