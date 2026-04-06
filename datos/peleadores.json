@@ -519,6 +519,66 @@
       "nombre": "Kyle Nelson",
       "apodo": null,
       "foto": "assets/peleadores/kyle-nelson.png"
+    },
+    "renato-moicano": {
+      "nombre": "Renato Moicano",
+      "apodo": null,
+      "foto": "assets/peleadores/renato-moicano.png"
+    },
+    "chris-duncan": {
+      "nombre": "Chris Duncan",
+      "apodo": null,
+      "foto": "assets/peleadores/chris-duncan.png"
+    },
+    "virna-jandiroba": {
+      "nombre": "Virna Jandiroba",
+      "apodo": null,
+      "foto": "assets/peleadores/virna-jandiroba.png"
+    },
+    "tabatha-ricci": {
+      "nombre": "Tabatha Ricci",
+      "apodo": null,
+      "foto": "assets/peleadores/tabatha-ricci.png"
+    },
+    "abdul-rakhman-yakhyaev": {
+      "nombre": "Abdul-Rakhman Yakhyaev",
+      "apodo": null,
+      "foto": "assets/peleadores/abdul-rakhman-yakhyaev.png"
+    },
+    "brendson-ribeiro": {
+      "nombre": "Brendson Ribeiro",
+      "apodo": null,
+      "foto": "assets/peleadores/brendson-ribeiro.avif"
+    },
+    "ethyn-ewing": {
+      "nombre": "Ethyn Ewing",
+      "apodo": null,
+      "foto": "assets/peleadores/ethyn-ewing.png"
+    },
+    "rafael-estevam": {
+      "nombre": "Rafael Estevam",
+      "apodo": null,
+      "foto": "assets/peleadores/rafael-estevam.png"
+    },
+    "tommy-mcmillen": {
+      "nombre": "Tommy McMillen",
+      "apodo": null,
+      "foto": "assets/peleadores/tommy-mcmillen.jpeg"
+    },
+    "manolo-zecchini": {
+      "nombre": "Manolo Zecchini",
+      "apodo": null,
+      "foto": "assets/peleadores/manolo-zecchini.png"
+    },
+    "jose-delano": {
+      "nombre": "José Delano",
+      "apodo": null,
+      "foto": "assets/peleadores/jose-delano.jpeg"
+    },
+    "robert-ruchala": {
+      "nombre": "Robert Ruchala",
+      "apodo": null,
+      "foto": "assets/peleadores/robert-ruchala.jpeg"
     }
   }
 }

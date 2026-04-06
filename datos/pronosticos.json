@@ -1,6 +1,72 @@
 {
   "eventos": [
     {
+      "nombre": "UFC Fight Night: Moicano vs. Duncan",
+      "fecha": "2026-04-04",
+      "peleas": [
+        {
+          "peleador1": "renato-moicano",
+          "peleador2": "chris-duncan",
+          "ganador": "renato-moicano",
+          "pronosticos": {
+            "josue": "renato-moicano",
+            "yared": "chris-duncan",
+            "coke": "chris-duncan"
+          }
+        },
+        {
+          "peleador1": "virna-jandiroba",
+          "peleador2": "tabatha-ricci",
+          "ganador": "virna-jandiroba",
+          "pronosticos": {
+            "josue": "virna-jandiroba",
+            "yared": "virna-jandiroba",
+            "coke": "virna-jandiroba"
+          }
+        },
+        {
+          "peleador1": "abdul-rakhman-yakhyaev",
+          "peleador2": "brendson-ribeiro",
+          "ganador": "abdul-rakhman-yakhyaev",
+          "pronosticos": {
+            "josue": "abdul-rakhman-yakhyaev",
+            "yared": "abdul-rakhman-yakhyaev",
+            "coke": "abdul-rakhman-yakhyaev"
+          }
+        },
+        {
+          "peleador1": "ethyn-ewing",
+          "peleador2": "rafael-estevam",
+          "ganador": "ethyn-ewing",
+          "pronosticos": {
+            "josue": "ethyn-ewing",
+            "yared": "rafael-estevam",
+            "coke": "rafael-estevam"
+          }
+        },
+        {
+          "peleador1": "tommy-mcmillen",
+          "peleador2": "manolo-zecchini",
+          "ganador": "tommy-mcmillen",
+          "pronosticos": {
+            "josue": "tommy-mcmillen",
+            "yared": "tommy-mcmillen",
+            "coke": "tommy-mcmillen"
+          }
+        },
+        {
+          "peleador1": "jose-delano",
+          "peleador2": "robert-ruchala",
+          "ganador": "jose-delano",
+          "pronosticos": {
+            "josue": "jose-delano",
+            "yared": "robert-ruchala",
+            "coke": "jose-delano"
+          }
+        }
+      ]
+    },
+    {
       "nombre": "UFC Fight Night: Adesanya vs. Pyfer",
       "fecha": "2026-03-28",
       "peleas": [
