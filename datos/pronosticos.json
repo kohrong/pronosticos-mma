@@ -1,6 +1,42 @@
 {
   "eventos": [
     {
+      "nombre": "UFC 327: Procházka vs. Ulberg",
+      "fecha": "2026-04-11",
+      "peleas": [
+        {
+          "peleador1": "jiri-prochazka",
+          "peleador2": "carlos-ulberg",
+          "ganador": null,
+          "pronosticos": {}
+        },
+        {
+          "peleador1": "azamat-murzakanov",
+          "peleador2": "paulo-costa",
+          "ganador": null,
+          "pronosticos": {}
+        },
+        {
+          "peleador1": "curtis-blaydes",
+          "peleador2": "josh-hokit",
+          "ganador": null,
+          "pronosticos": {}
+        },
+        {
+          "peleador1": "dominick-reyes",
+          "peleador2": "johnny-walker",
+          "ganador": null,
+          "pronosticos": {}
+        },
+        {
+          "peleador1": "cub-swanson",
+          "peleador2": "nate-landwehr",
+          "ganador": null,
+          "pronosticos": {}
+        }
+      ]
+    },
+    {
       "nombre": "UFC Fight Night: Moicano vs. Duncan",
       "fecha": "2026-04-04",
       "peleas": [
